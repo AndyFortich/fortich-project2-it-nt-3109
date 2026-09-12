@@ -1,0 +1,128 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.header{ 
+    text-align: center
+}
+
+#headphones{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 18px;
+}
+
+th,td {
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #aaa;
+
+}
+
+th {
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+
+#Sales-Price {
+    color: green;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.form-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.form-group.quantity-group {
+    flex: 0 0 auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.quantity-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: auto;
+    padding-bottom: 12px;
+}
+
+.quantity-value {
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+input {
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="text"] {
+    border: 1px solid #e0e0e0;
+    color: #333333;
+}
+
+input[type="text"]::placeholder {
+    color: #a0a0a0;
+}
+
+input[type="email"] {
+    border: 2px solid #0056b3;
+    color: #333333;
+}
+
+input[type="email"]::placeholder {
+    color: #a0a0a0;
+}
+
+.btn-order {
+    height: 40px;
+    padding: 0 24px;
+    background-color: #1a1d20;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 140px;
+}
+
+.btn-order:hover {
+    background-color: #2d3238;
+}
